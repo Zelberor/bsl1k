@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch.utils.tensorboard import SummaryWriter
 
-from utils.misc import Timer
+from .misc import Timer
 
 __all__ = ["Logger", "savefig"]
 

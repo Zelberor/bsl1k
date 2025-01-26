@@ -8,7 +8,7 @@ import scipy.misc
 import torch
 from PIL import Image
 
-from utils.imutils import rectangle_on_image, text_on_image
+from .imutils import rectangle_on_image, text_on_image
 
 from .misc import mkdir_p, to_numpy
 
